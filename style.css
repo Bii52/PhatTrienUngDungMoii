@@ -1,0 +1,49 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.table-hover tbody tr:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+    transition: all 0.2s ease-in-out;
+}
+
+#productTable img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover; /* Crop instead of contain for a cleaner look */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.05);
+}
+
+.table th {
+    vertical-align: middle;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+}
+
+.pagination .page-item .page-link {
+    color: #343a40;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #343a40;
+    border-color: #343a40;
+    color: #fff;
+}
+
+footer {
+    box-shadow: 0 -2px 4px rgba(0,0,0,.1);
+}
